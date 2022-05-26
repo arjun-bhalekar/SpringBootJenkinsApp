@@ -24,7 +24,7 @@ class SpringBootJenkinsAppApplicationTests {
 	void testMethod2() {
 		
 		logger.info("=== executing testMethod2... ");
-		assertEquals(true, true);
+		assertEquals(true, false);
 	}
 
 }
